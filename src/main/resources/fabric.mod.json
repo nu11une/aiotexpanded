@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "aiotexpanded",
+  "version": "${version}",
+
+  "name": "AIOTs Expanded",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "nu11une"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.nu11une.aiotexpanded.AIOTExpanded"
+    ]
+  },
+  "mixins": [
+    "aiotexpanded.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
