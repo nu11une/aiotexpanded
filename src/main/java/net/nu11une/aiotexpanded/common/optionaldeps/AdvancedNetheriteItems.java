@@ -18,7 +18,6 @@ public class AdvancedNetheriteItems {
         Registry.register(Registry.ITEM, new Identifier(AIOTExpanded.MOD_ID, "netherite_gold_aiot"), NETHERITE_GOLD_AIOT);
         Registry.register(Registry.ITEM, new Identifier(AIOTExpanded.MOD_ID, "netherite_emerald_aiot"), NETHERITE_EMERALD_AIOT);
         Registry.register(Registry.ITEM, new Identifier(AIOTExpanded.MOD_ID, "netherite_diamond_aiot"), NETHERITE_DIAMOND_AIOT);
-        AIOTExpanded.LOGGER.info("Registered Advanced Netherite AIOTs for " + AIOTExpanded.MOD_ID);
     }
     static {
         NETHERITE_IRON_AIOT = new AiotToolItem(3, -2.4F, ModToolTiers.NETHERITE_IRON, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP).fireproof());

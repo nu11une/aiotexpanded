@@ -4,6 +4,7 @@
     {"id": "aiotexpanded:netherite_iron_aiot", "required": false},
     {"id": "aiotexpanded:netherite_gold_aiot", "required": false},
     {"id": "aiotexpanded:netherite_emerald_aiot", "required": false},
-    {"id": "aiotexpanded:netherite_diamond_aiot", "required": false}
+    {"id": "aiotexpanded:netherite_diamond_aiot", "required": false},
+    {"id": "aiotexpanded:dragon_aiot", "required": false}
   ]
 }

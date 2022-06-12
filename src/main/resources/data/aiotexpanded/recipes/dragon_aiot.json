@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dragonloot:dragon_sword"
+    },
+    {
+      "item": "dragonloot:dragon_pickaxe"
+    },
+    {
+      "item": "dragonloot:dragon_axe"
+    },
+    {
+      "item": "dragonloot:dragon_shovel"
+    },
+    {
+      "item": "dragonloot:dragon_hoe"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:dragon_aiot"
+  }
+}

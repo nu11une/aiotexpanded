@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "basicaiots:netherite_aiot"
+  },
+  "addition": {
+    "item": "dragonloot:dragon_scale"
+  },
+  "result": {
+    "item": "aiotexpanded:dragon_aiot"
+  }
+}

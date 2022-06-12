@@ -10,6 +10,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import net.fabricmc.loader.api.FabricLoader;
 import net.nu11une.aiotexpanded.common.optionaldeps.AdvancedNetheriteItems;
+import net.nu11une.aiotexpanded.common.optionaldeps.DragonLootItems;
 
 public class AIOTExpanded implements ModInitializer {
 	public static final String MOD_ID = "aiotexpanded";
@@ -19,13 +20,21 @@ public class AIOTExpanded implements ModInitializer {
 			new Identifier(MOD_ID, "aiotexpanded_group"),
 			() -> new ItemStack(ModItems.AIOTEXPANDED_ICON));
 
+	public static boolean isModLoaded(String modId) {
+		return FabricLoader.getInstance().isModLoaded(modId);
+	}
+
 	@Override
 	public void onInitialize() {
 		ModItems.registerItems();
 		LOGGER.info("Registered items");
-		if(FabricLoader.getInstance().isModLoaded("advancednetherite")) {
+		if(isModLoaded("advancednetherite")) {
 			LOGGER.info("Detected Advanced Netherite, registering items");
 			AdvancedNetheriteItems.registerAdvancedNetheriteItems();
+		}
+		if(isModLoaded("dragonloot")) {
+			LOGGER.info("Detected DragonLoot, registering items");
+			DragonLootItems.registerDragonLootItems();
 		}
 	}
 }

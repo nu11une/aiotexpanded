@@ -35,6 +35,7 @@ dependencies {
 
 	//Optional dependencies
 	modImplementation "curse.maven:advancednetherite-547881:${project.advancednetherite_version}"
+	modImplementation "curse.maven:dragonloot-424480:${project.dragonloot_version}"
 }
 
 processResources {

@@ -13,7 +13,7 @@
     "curseforge": "https://www.curseforge.com/members/nu11une/projects"
   },
 
-  "license": "MIT",
+  "license": "Apache-2.0",
   "icon": "assets/aiotexpanded/textures/item/aiotexpanded_icon.png",
 
   "environment": "*",
@@ -31,6 +31,7 @@
     "basicaiots": "1.3.3+1.18.2"
   },
   "suggests": {
-    "advancednetherite": "1.5.1-1.18.2"
+    "advancednetherite": "1.5.1-1.18.2",
+    "dragonloot": "1.1.0"
   }
 }
