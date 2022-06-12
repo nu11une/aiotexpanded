@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "betternether:nether_ruby_sword"
+    },
+    {
+      "item": "betternether:nether_ruby_axe"
+    },
+    {
+      "item": "betternether:nether_ruby_pickaxe"
+    },
+    {
+      "item": "betternether:nether_ruby_shovel"
+    },
+    {
+      "item": "betternether:nether_ruby_hoe"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:nether_ruby_aiot"
+  }
+}

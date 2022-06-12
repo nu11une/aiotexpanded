@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
+import net.nu11une.aiotexpanded.common.optionaldeps.BetterNetherItems;
 import net.nu11une.aiotexpanded.core.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -35,6 +36,10 @@ public class AIOTExpanded implements ModInitializer {
 		if(isModLoaded("dragonloot")) {
 			LOGGER.info("Detected DragonLoot, registering items");
 			DragonLootItems.registerDragonLootItems();
+		}
+		if(isModLoaded("betternether")) {
+			LOGGER.info("Detected Better Nether, registering items");
+			BetterNetherItems.registerBetterNetherItems();
 		}
 	}
 }

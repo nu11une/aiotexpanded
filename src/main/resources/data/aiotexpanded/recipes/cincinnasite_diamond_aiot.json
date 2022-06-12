@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "betternether:cincinnasite_sword_diamond"
+    },
+    {
+      "item": "betternether:cincinnasite_axe_diamond"
+    },
+    {
+      "item": "betternether:cincinnasite_pickaxe_diamond"
+    },
+    {
+      "item": "betternether:cincinnasite_shovel_diamond"
+    },
+    {
+      "item": "betternether:cincinnasite_hoe_diamond"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:cincinnasite_diamond_aiot"
+  }
+}

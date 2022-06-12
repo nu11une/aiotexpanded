@@ -5,6 +5,9 @@
     {"id": "aiotexpanded:netherite_gold_aiot", "required": false},
     {"id": "aiotexpanded:netherite_emerald_aiot", "required": false},
     {"id": "aiotexpanded:netherite_diamond_aiot", "required": false},
-    {"id": "aiotexpanded:dragon_aiot", "required": false}
+    {"id": "aiotexpanded:dragon_aiot", "required": false},
+    {"id": "aiotexpanded:nether_ruby_aiot", "required": false},
+    {"id": "aiotexpanded:cincinnasite_aiot", "required": false},
+    {"id": "aiotexpanded:cincinnasite_diamond_aiot", "required": false}
   ]
 }

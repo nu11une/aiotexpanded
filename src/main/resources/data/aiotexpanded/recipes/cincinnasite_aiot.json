@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "betternether:cincinnasite_sword"
+    },
+    {
+      "item": "betternether:cincinnasite_axe"
+    },
+    {
+      "item": "betternether:cincinnasite_pickaxe"
+    },
+    {
+      "item": "betternether:cincinnasite_shovel"
+    },
+    {
+      "item": "betternether:cincinnasite_hoe"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:cincinnasite_aiot"
+  }
+}
