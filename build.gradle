@@ -19,6 +19,7 @@ repositories {
 	mavenLocal()
 	maven { url "https://cursemaven.com" }
 	maven { url "https://maven.shedaniel.me/" }
+	maven { url 'https://jitpack.io' }
 }
 
 dependencies {
@@ -38,6 +39,7 @@ dependencies {
 	modImplementation "curse.maven:dragonloot-424480:${project.dragonloot_version}"
 	modImplementation "curse.maven:betternether-311377:${project.betternether_version}"
 	modImplementation "curse.maven:bclib-495191:${project.bclib_version}"
+	// modImplementation "com.github.quiqueck:BetterNether:1.18.2-SNAPSHOT"
 }
 
 processResources {
