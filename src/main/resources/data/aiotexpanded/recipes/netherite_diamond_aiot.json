@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "advancednetherite:netherite_diamond_sword"
+    },
+    {
+      "item": "advancednetherite:netherite_diamond_pickaxe"
+    },
+    {
+      "item": "advancednetherite:netherite_diamond_shovel"
+    },
+    {
+      "item": "advancednetherite:netherite_diamond_axe"
+    },
+    {
+      "item": "advancednetherite:netherite_diamond_hoe"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:netherite_diamond_aiot"
+  }
+}

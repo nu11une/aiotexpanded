@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "aiotexpanded:item/netherite_gold_aiot"
+  }
+}

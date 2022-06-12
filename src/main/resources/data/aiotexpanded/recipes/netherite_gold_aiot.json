@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "advancednetherite:netherite_gold_sword"
+    },
+    {
+      "item": "advancednetherite:netherite_gold_pickaxe"
+    },
+    {
+      "item": "advancednetherite:netherite_gold_shovel"
+    },
+    {
+      "item": "advancednetherite:netherite_gold_axe"
+    },
+    {
+      "item": "advancednetherite:netherite_gold_hoe"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:netherite_gold_aiot"
+  }
+}

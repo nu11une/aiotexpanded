@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "advancednetherite:netherite_iron_sword"
+    },
+    {
+      "item": "advancednetherite:netherite_iron_pickaxe"
+    },
+    {
+      "item": "advancednetherite:netherite_iron_shovel"
+    },
+    {
+      "item": "advancednetherite:netherite_iron_axe"
+    },
+    {
+      "item": "advancednetherite:netherite_iron_hoe"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:netherite_iron_aiot"
+  }
+}

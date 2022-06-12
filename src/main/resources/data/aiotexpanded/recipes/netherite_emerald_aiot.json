@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "advancednetherite:netherite_emerald_sword"
+    },
+    {
+      "item": "advancednetherite:netherite_emerald_pickaxe"
+    },
+    {
+      "item": "advancednetherite:netherite_emerald_shovel"
+    },
+    {
+      "item": "advancednetherite:netherite_emerald_axe"
+    },
+    {
+      "item": "advancednetherite:netherite_emerald_hoe"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:netherite_emerald_aiot"
+  }
+}

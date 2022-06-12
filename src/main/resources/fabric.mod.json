@@ -4,17 +4,17 @@
   "version": "${version}",
 
   "name": "AIOTs Expanded",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "An add-on mod for Basic AIOTs aimed at greatly expanding mod compatibility",
   "authors": [
     "nu11une"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/nu11une/aiotexpanded",
+    "curseforge": "https://www.curseforge.com/members/nu11une/projects"
   },
 
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/aiotexpanded/textures/item/aiotexpanded_icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -22,17 +22,15 @@
       "net.nu11une.aiotexpanded.AIOTExpanded"
     ]
   },
-  "mixins": [
-    "aiotexpanded.mixins.json"
-  ],
 
   "depends": {
     "fabricloader": ">=0.14.6",
     "fabric": "*",
     "minecraft": "~1.18.2",
-    "java": ">=17"
+    "java": ">=17",
+    "basicaiots": "1.3.3+1.18.2"
   },
   "suggests": {
-    "another-mod": "*"
+    "advancednetherite": "1.5.1-1.18.2"
   }
 }

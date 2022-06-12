@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "aiotexpanded:netherite_gold_aiot"
+  },
+  "addition": {
+    "item": "advancednetherite:netherite_emerald_ingot"
+  },
+  "result": {
+    "item": "aiotexpanded:netherite_emerald_aiot"
+  }
+}
