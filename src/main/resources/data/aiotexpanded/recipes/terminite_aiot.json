@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "aiotexpanded:terminite_aiot_handle"
+  },
+  "addition": {
+    "item": "aiotexpanded:terminite_aiot_head"
+  },
+  "result": {
+    "item": "aiotexpanded:terminite_aiot"
+  }
+}

@@ -1,4 +1,4 @@
-package net.nu11une.aiotexpanded.common.optionaldeps;
+package net.nu11une.aiotexpanded.common.optionaldeps.tools;
 
 import me.luligabi.basicaiots.common.item.AiotToolItem;
 import net.minecraft.enchantment.Enchantment;

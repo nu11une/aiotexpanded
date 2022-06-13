@@ -4,6 +4,7 @@ A fabric add-on mod for [Basic AIOTs](https://www.curseforge.com/minecraft/mc-mo
 Currently supported mods include:
 
  - [BetterNether](https://www.curseforge.com/minecraft/mc-mods/betternether)
+ - [BetterEnd](https://www.curseforge.com/minecraft/mc-mods/betterend)
  - [Advanced Netherite](https://www.curseforge.com/minecraft/mc-mods/advanced-netherite)
  - [DragonLoot](https://www.curseforge.com/minecraft/mc-mods/dragonloot)
 

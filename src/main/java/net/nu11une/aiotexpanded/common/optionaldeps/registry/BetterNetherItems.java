@@ -1,5 +1,6 @@
-package net.nu11une.aiotexpanded.common.optionaldeps;
+package net.nu11une.aiotexpanded.common.optionaldeps.registry;
 
+import net.nu11une.aiotexpanded.common.optionaldeps.tools.BetterNetherAIOT;
 import paulevs.betternether.items.materials.BNToolMaterial;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;

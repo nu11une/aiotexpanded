@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "betterend:aeternium_sword_blade"
+    },
+    {
+      "item": "betterend:aeternium_axe_head"
+    },
+    {
+      "item": "betterend:aeternium_pickaxe_head"
+    },
+    {
+      "item": "betterend:aeternium_shovel_head"
+    },
+    {
+      "item": "betterend:aeternium_hoe_head"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:aeternium_aiot_head"
+  }
+}

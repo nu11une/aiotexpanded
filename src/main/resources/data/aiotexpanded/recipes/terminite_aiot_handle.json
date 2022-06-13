@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "betterend:terminite_sword_handle"
+  },
+  "addition": {
+    "item": "betterend:crystal_shards"
+  },
+  "result": {
+    "item": "aiotexpanded:terminite_aiot_handle"
+  }
+}

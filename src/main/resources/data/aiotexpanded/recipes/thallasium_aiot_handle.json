@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "betterend:thallasium_sword_handle"
+  },
+  "addition": {
+    "item": "betterend:crystal_shards"
+  },
+  "result": {
+    "item": "aiotexpanded:thallasium_aiot_handle"
+  }
+}

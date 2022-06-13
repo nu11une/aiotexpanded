@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "aiotexpanded:aeternium_aiot_handle"
+  },
+  "addition": {
+    "item": "aiotexpanded:aeternium_aiot_head"
+  },
+  "result": {
+    "item": "aiotexpanded:aeternium_aiot"
+  }
+}

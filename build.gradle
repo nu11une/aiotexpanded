@@ -11,11 +11,6 @@ version = project.mod_version
 group = project.maven_group
 
 repositories {
-	// Add repositories to retrieve artifacts from in here.
-	// You should only use this when depending on other mods because
-	// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
-	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
-	// for more information about repositories.
 	mavenLocal()
 	maven { url "https://cursemaven.com" }
 	maven { url "https://maven.shedaniel.me/" }
@@ -28,7 +23,7 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
-	// Fabric API. This is technically optional, but you probably want it anyway.
+	// Fabric API
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	// Basic AIOTs dependency
@@ -39,7 +34,7 @@ dependencies {
 	modImplementation "curse.maven:dragonloot-424480:${project.dragonloot_version}"
 	modImplementation "curse.maven:betternether-311377:${project.betternether_version}"
 	modImplementation "curse.maven:bclib-495191:${project.bclib_version}"
-	// modImplementation "com.github.quiqueck:BetterNether:1.18.2-SNAPSHOT"
+	modImplementation "curse.maven:betterend-413596:${project.betterend_version}"
 }
 
 processResources {

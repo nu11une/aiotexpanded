@@ -1,4 +1,4 @@
-package net.nu11une.aiotexpanded.common.optionaldeps;
+package net.nu11une.aiotexpanded.common.optionaldeps.registry;
 
 import me.luligabi.basicaiots.common.item.AiotToolItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;

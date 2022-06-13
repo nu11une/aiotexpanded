@@ -8,6 +8,9 @@
     {"id": "aiotexpanded:dragon_aiot", "required": false},
     {"id": "aiotexpanded:nether_ruby_aiot", "required": false},
     {"id": "aiotexpanded:cincinnasite_aiot", "required": false},
-    {"id": "aiotexpanded:cincinnasite_diamond_aiot", "required": false}
+    {"id": "aiotexpanded:cincinnasite_diamond_aiot", "required": false},
+    {"id": "aiotexpanded:aeternium_aiot", "required": false},
+    {"id": "aiotexpanded:terminite_aiot", "required": false},
+    {"id": "aiotexpanded:thallasium_aiot", "required": false}
   ]
 }

@@ -5,13 +5,14 @@ import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
-import net.nu11une.aiotexpanded.common.optionaldeps.BetterNetherItems;
+import net.nu11une.aiotexpanded.common.optionaldeps.registry.BetterNetherItems;
 import net.nu11une.aiotexpanded.core.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import net.fabricmc.loader.api.FabricLoader;
-import net.nu11une.aiotexpanded.common.optionaldeps.AdvancedNetheriteItems;
-import net.nu11une.aiotexpanded.common.optionaldeps.DragonLootItems;
+import net.nu11une.aiotexpanded.common.optionaldeps.registry.AdvancedNetheriteItems;
+import net.nu11une.aiotexpanded.common.optionaldeps.registry.DragonLootItems;
+import net.nu11une.aiotexpanded.common.optionaldeps.registry.BetterEndItems;
 
 public class AIOTExpanded implements ModInitializer {
 	public static final String MOD_ID = "aiotexpanded";
@@ -28,18 +29,22 @@ public class AIOTExpanded implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerItems();
-		LOGGER.info("Registered items");
+		LOGGER.info("[${MOD_ID}] Registering icon");
 		if(isModLoaded("advancednetherite")) {
-			LOGGER.info("Detected Advanced Netherite, registering items");
+			LOGGER.info("[${MOD_ID}] Detected Advanced Netherite, registering items");
 			AdvancedNetheriteItems.registerAdvancedNetheriteItems();
 		}
 		if(isModLoaded("dragonloot")) {
-			LOGGER.info("Detected DragonLoot, registering items");
+			LOGGER.info("[${MOD_ID}] Detected DragonLoot, registering items");
 			DragonLootItems.registerDragonLootItems();
 		}
 		if(isModLoaded("betternether")) {
-			LOGGER.info("Detected Better Nether, registering items");
+			LOGGER.info("[${MOD_ID}] Detected BetterNether, registering items");
 			BetterNetherItems.registerBetterNetherItems();
+		}
+		if(isModLoaded("betterend")) {
+			LOGGER.info("[${MOD_ID}] Detected BetterEnd, registering items");
+			BetterEndItems.registerBetterEndItems();
 		}
 	}
 }

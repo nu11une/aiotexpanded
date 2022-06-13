@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "betterend:terminite_sword_blade"
+    },
+    {
+      "item": "betterend:terminite_axe_head"
+    },
+    {
+      "item": "betterend:terminite_pickaxe_head"
+    },
+    {
+      "item": "betterend:terminite_shovel_head"
+    },
+    {
+      "item": "betterend:terminite_hoe_head"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:terminite_aiot_head"
+  }
+}

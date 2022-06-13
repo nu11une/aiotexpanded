@@ -7,5 +7,14 @@
   "item.aiotexpanded.nether_ruby_aiot": "Nether Ruby AIOT",
   "item.aiotexpanded.cincinnasite_aiot": "Cincinnasite AIOT",
   "item.aiotexpanded.cincinnasite_diamond_aiot": "Cincinnasite-Diamond AIOT",
+  "item.aiotexpanded.aeternium_aiot": "Aeternium AIOT",
+  "item.aiotexpanded.terminite_aiot": "Terminite AIOT",
+  "item.aiotexpanded.thallasium_aiot": "Thallasium AIOT",
+  "item.aiotexpanded.thallasium_aiot_head": "Thallasium AIOT Head",
+  "item.aiotexpanded.terminite_aiot_head": "Terminite AIOT Head",
+  "item.aiotexpanded.aeternium_aiot_head": "Aeternium AIOT Head",
+  "item.aiotexpanded.thallasium_aiot_handle": "Thallasium AIOT Handle",
+  "item.aiotexpanded.terminite_aiot_handle": "Terminite AIOT Handle",
+  "item.aiotexpanded.aeternium_aiot_handle": "Aeternium AIOT Handle",
   "itemGroup.aiotexpanded.aiotexpanded_group": "AIOTs Expanded"
 }
