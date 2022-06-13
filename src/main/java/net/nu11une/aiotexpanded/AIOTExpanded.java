@@ -29,21 +29,21 @@ public class AIOTExpanded implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerItems();
-		LOGGER.info("[${MOD_ID}] Registering icon");
+		LOGGER.info("[" + MOD_ID + "] Registering icon");
 		if(isModLoaded("advancednetherite")) {
-			LOGGER.info("[${MOD_ID}] Detected Advanced Netherite, registering items");
+			LOGGER.info("[" + MOD_ID + "] Detected Advanced Netherite, registering items");
 			AdvancedNetheriteItems.registerAdvancedNetheriteItems();
 		}
 		if(isModLoaded("dragonloot")) {
-			LOGGER.info("[${MOD_ID}] Detected DragonLoot, registering items");
+			LOGGER.info("[" + MOD_ID + "] Detected DragonLoot, registering items");
 			DragonLootItems.registerDragonLootItems();
 		}
 		if(isModLoaded("betternether")) {
-			LOGGER.info("[${MOD_ID}] Detected BetterNether, registering items");
+			LOGGER.info("[" + MOD_ID + "] Detected BetterNether, registering items");
 			BetterNetherItems.registerBetterNetherItems();
 		}
 		if(isModLoaded("betterend")) {
-			LOGGER.info("[${MOD_ID}] Detected BetterEnd, registering items");
+			LOGGER.info("[" + MOD_ID + "] Detected BetterEnd, registering items");
 			BetterEndItems.registerBetterEndItems();
 		}
 	}
