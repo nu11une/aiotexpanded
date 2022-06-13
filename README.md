@@ -1,5 +1,5 @@
 # AIOTs Expanded <img src="https://media.discordapp.net/attachments/597633988802117642/985326334219804672/aiotexpanded_large.png" align="right" width="160"/>
-A fabric add-on mod for [Basic AIOTs](https://www.curseforge.com/minecraft/mc-mods/basic-aiots) that aims to greatly expand compatibilty with other mods
+A fabric add-on mod for [Basic AIOTs](https://www.curseforge.com/minecraft/mc-mods/basic-aiots) that aims to greatly expand compatibility with other mods
 
 Currently supported mods include:
 
