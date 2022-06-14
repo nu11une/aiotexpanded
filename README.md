@@ -9,6 +9,12 @@ Currently supported mods include:
 
 With many more planned
 
-Credit to [Luligabi12](https://www.curseforge.com/members/luligabi12/projects) for the textures I used for templates/mod icon
+<img src="https://media.discordapp.net/attachments/597633988802117642/986121888113782814/unknown.png"/>
+
+Credits:
+
+[Luligabi12](https://www.curseforge.com/members/luligabi12/projects) for template textures/mod icon
+
+All of the respective mod authors for the original tool-set textures
 
 <sub>Note: I am not affiliated with the author of the Basic AIOTs mod</sub>
