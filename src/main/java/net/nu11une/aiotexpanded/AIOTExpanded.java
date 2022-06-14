@@ -35,15 +35,15 @@ public class AIOTExpanded implements ModInitializer {
 			LOGGER.info("[" + MOD_ID + "] Detected Advanced Netherite, registering items");
 			AdvancedNetheriteItems.registerAdvancedNetheriteItems();
 		}
-		if(isModLoaded("dragonloot")) {
+		if(isModLoaded("tempdisabled")) {
 			LOGGER.info("[" + MOD_ID + "] Detected DragonLoot, registering items");
 			DragonLootItems.registerDragonLootItems();
 		}
-		if(isModLoaded("betternether")) {
+		if(isModLoaded("tempdisabled")) {
 			LOGGER.info("[" + MOD_ID + "] Detected BetterNether, registering items");
 			BetterNetherItems.registerBetterNetherItems();
 		}
-		if(isModLoaded("betterend")) {
+		if(isModLoaded("tempdisabled")) {
 			LOGGER.info("[" + MOD_ID + "] Detected BetterEnd, registering items");
 			BetterEndItems.registerBetterEndItems();
 		}
