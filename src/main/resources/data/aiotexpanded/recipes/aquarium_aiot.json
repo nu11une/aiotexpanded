@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mythicmetals:aquarium_sword"
+    },
+    {
+      "item": "mythicmetals:aquarium_axe"
+    },
+    {
+      "item": "mythicmetals:aquarium_pickaxe"
+    },
+    {
+      "item": "mythicmetals:aquarium_shovel"
+    },
+    {
+      "item": "mythicmetals:aquarium_hoe"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:aquarium_aiot"
+  }
+}

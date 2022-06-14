@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mythicmetals:mythril_sword"
+    },
+    {
+      "item": "mythicmetals:mythril_axe"
+    },
+    {
+      "item": "mythicmetals:mythril_pickaxe"
+    },
+    {
+      "item": "mythicmetals:mythril_shovel"
+    },
+    {
+      "item": "mythicmetals:mythril_hoe"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:mythril_aiot"
+  }
+}

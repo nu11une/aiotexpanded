@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mythicmetals:osmium_sword"
+    },
+    {
+      "item": "mythicmetals:osmium_axe"
+    },
+    {
+      "item": "mythicmetals:osmium_pickaxe"
+    },
+    {
+      "item": "mythicmetals:osmium_shovel"
+    },
+    {
+      "item": "mythicmetals:osmium_hoe"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:osmium_aiot"
+  }
+}

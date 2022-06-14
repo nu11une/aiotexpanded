@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mythicmetals:carmot_sword"
+    },
+    {
+      "item": "mythicmetals:carmot_axe"
+    },
+    {
+      "item": "mythicmetals:carmot_pickaxe"
+    },
+    {
+      "item": "mythicmetals:carmot_shovel"
+    },
+    {
+      "item": "mythicmetals:carmot_hoe"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:carmot_aiot"
+  }
+}

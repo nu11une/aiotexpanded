@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mythicmetals:hallowed_sword"
+    },
+    {
+      "item": "mythicmetals:hallowed_axe"
+    },
+    {
+      "item": "mythicmetals:hallowed_pickaxe"
+    },
+    {
+      "item": "mythicmetals:hallowed_shovel"
+    },
+    {
+      "item": "mythicmetals:hallowed_hoe"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:hallowed_aiot"
+  }
+}

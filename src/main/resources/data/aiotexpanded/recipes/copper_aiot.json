@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mythicmetals:copper_sword"
+    },
+    {
+      "item": "mythicmetals:copper_axe"
+    },
+    {
+      "item": "mythicmetals:copper_pickaxe"
+    },
+    {
+      "item": "mythicmetals:copper_shovel"
+    },
+    {
+      "item": "mythicmetals:copper_hoe"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:copper_aiot"
+  }
+}

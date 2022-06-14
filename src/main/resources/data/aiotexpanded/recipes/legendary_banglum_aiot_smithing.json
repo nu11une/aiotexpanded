@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "aiotexpanded:banglum_aiot"
+  },
+  "addition": {
+    "item": "mythicmetals:banglum_chunk"
+  },
+  "result": {
+    "item": "aiotexpanded:legendary_banglum_aiot"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mythicmetals:bronze_sword"
+    },
+    {
+      "item": "mythicmetals:bronze_axe"
+    },
+    {
+      "item": "mythicmetals:bronze_pickaxe"
+    },
+    {
+      "item": "mythicmetals:bronze_shovel"
+    },
+    {
+      "item": "mythicmetals:bronze_hoe"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:bronze_aiot"
+  }
+}

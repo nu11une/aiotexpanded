@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mythicmetals:kyber_sword"
+    },
+    {
+      "item": "mythicmetals:kyber_axe"
+    },
+    {
+      "item": "mythicmetals:kyber_pickaxe"
+    },
+    {
+      "item": "mythicmetals:kyber_shovel"
+    },
+    {
+      "item": "mythicmetals:kyber_hoe"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:kyber_aiot"
+  }
+}

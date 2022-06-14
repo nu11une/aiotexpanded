@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mythicmetals:quadrillum_sword"
+    },
+    {
+      "item": "mythicmetals:quadrillum_axe"
+    },
+    {
+      "item": "mythicmetals:quadrillum_pickaxe"
+    },
+    {
+      "item": "mythicmetals:quadrillum_shovel"
+    },
+    {
+      "item": "mythicmetals:quadrillum_hoe"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:quadrillum_aiot"
+  }
+}

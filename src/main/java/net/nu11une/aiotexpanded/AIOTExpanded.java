@@ -13,6 +13,7 @@ import net.fabricmc.loader.api.FabricLoader;
 import net.nu11une.aiotexpanded.common.optionaldeps.registry.AdvancedNetheriteItems;
 import net.nu11une.aiotexpanded.common.optionaldeps.registry.DragonLootItems;
 import net.nu11une.aiotexpanded.common.optionaldeps.registry.BetterEndItems;
+import net.nu11une.aiotexpanded.common.optionaldeps.registry.MythicMetalsItems;
 
 public class AIOTExpanded implements ModInitializer {
 	public static final String MOD_ID = "aiotexpanded";
@@ -45,6 +46,11 @@ public class AIOTExpanded implements ModInitializer {
 		if(isModLoaded("betterend")) {
 			LOGGER.info("[" + MOD_ID + "] Detected BetterEnd, registering items");
 			BetterEndItems.registerBetterEndItems();
+		}
+		if(isModLoaded("mythicmetals")) {
+			LOGGER.info("[" + MOD_ID + "] Detected Mythic Metals, registering items");
+			MythicMetalsItems.registerMythicMetalItems();
+			MythicMetalsItems.initMythicMetalsAbilities();
 		}
 	}
 }

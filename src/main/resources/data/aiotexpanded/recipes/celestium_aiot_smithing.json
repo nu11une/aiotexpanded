@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "basicaiots:diamond_aiot"
+  },
+  "addition": {
+    "item": "mythicmetals:celestium_ingot"
+  },
+  "result": {
+    "item": "aiotexpanded:celestium_aiot"
+  }
+}

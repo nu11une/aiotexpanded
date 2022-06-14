@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mythicmetals:palladium_sword"
+    },
+    {
+      "item": "mythicmetals:palladium_axe"
+    },
+    {
+      "item": "mythicmetals:palladium_pickaxe"
+    },
+    {
+      "item": "mythicmetals:palladium_shovel"
+    },
+    {
+      "item": "mythicmetals:palladium_hoe"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:palladium_aiot"
+  }
+}

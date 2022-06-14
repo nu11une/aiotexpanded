@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mythicmetals:adamantite_sword"
+    },
+    {
+      "item": "mythicmetals:adamantite_axe"
+    },
+    {
+      "item": "mythicmetals:adamantite_pickaxe"
+    },
+    {
+      "item": "mythicmetals:adamantite_shovel"
+    },
+    {
+      "item": "mythicmetals:adamantite_hoe"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:adamantite_aiot"
+  }
+}

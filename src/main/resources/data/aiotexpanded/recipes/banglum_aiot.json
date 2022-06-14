@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mythicmetals:banglum_sword"
+    },
+    {
+      "item": "mythicmetals:banglum_axe"
+    },
+    {
+      "item": "mythicmetals:banglum_pickaxe"
+    },
+    {
+      "item": "mythicmetals:banglum_shovel"
+    },
+    {
+      "item": "mythicmetals:banglum_hoe"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:banglum_aiot"
+  }
+}

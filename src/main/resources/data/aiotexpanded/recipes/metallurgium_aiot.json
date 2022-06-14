@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mythicmetals:metallurgium_sword"
+    },
+    {
+      "item": "mythicmetals:metallurgium_axe"
+    },
+    {
+      "item": "mythicmetals:metallurgium_pickaxe"
+    },
+    {
+      "item": "mythicmetals:metallurgium_shovel"
+    },
+    {
+      "item": "mythicmetals:metallurgium_hoe"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:metallurgium_aiot"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "basicaiots:netherite_aiot"
+  },
+  "addition": {
+    "item": "mythicmetals:metallurgium_ingot"
+  },
+  "result": {
+    "item": "aiotexpanded:metallurgium_aiot"
+  }
+}

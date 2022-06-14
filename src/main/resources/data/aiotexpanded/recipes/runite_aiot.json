@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mythicmetals:runite_sword"
+    },
+    {
+      "item": "mythicmetals:runite_axe"
+    },
+    {
+      "item": "mythicmetals:runite_pickaxe"
+    },
+    {
+      "item": "mythicmetals:runite_shovel"
+    },
+    {
+      "item": "mythicmetals:runite_hoe"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:runite_aiot"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mythicmetals:prometheum_sword"
+    },
+    {
+      "item": "mythicmetals:prometheum_axe"
+    },
+    {
+      "item": "mythicmetals:prometheum_pickaxe"
+    },
+    {
+      "item": "mythicmetals:prometheum_shovel"
+    },
+    {
+      "item": "mythicmetals:prometheum_hoe"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:prometheum_aiot"
+  }
+}

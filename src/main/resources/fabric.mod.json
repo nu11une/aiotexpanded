@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.nu11une.aiotexpanded.AIOTExpanded"
+    ],
+    "client": [
+      "net.nu11une.aiotexpanded.AIOTExpandedClient"
     ]
   },
 

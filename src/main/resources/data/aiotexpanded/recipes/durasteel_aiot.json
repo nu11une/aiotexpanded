@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mythicmetals:durasteel_sword"
+    },
+    {
+      "item": "mythicmetals:durasteel_axe"
+    },
+    {
+      "item": "mythicmetals:durasteel_pickaxe"
+    },
+    {
+      "item": "mythicmetals:durasteel_shovel"
+    },
+    {
+      "item": "mythicmetals:durasteel_hoe"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:durasteel_aiot"
+  }
+}

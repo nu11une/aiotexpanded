@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mythicmetals:stormyx_sword"
+    },
+    {
+      "item": "mythicmetals:stormyx_axe"
+    },
+    {
+      "item": "mythicmetals:stormyx_pickaxe"
+    },
+    {
+      "item": "mythicmetals:stormyx_shovel"
+    },
+    {
+      "item": "mythicmetals:stormyx_hoe"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:stormyx_aiot"
+  }
+}

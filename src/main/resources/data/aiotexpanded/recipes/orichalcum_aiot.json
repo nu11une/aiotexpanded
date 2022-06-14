@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mythicmetals:orichalcum_sword"
+    },
+    {
+      "item": "mythicmetals:orichalcum_axe"
+    },
+    {
+      "item": "mythicmetals:orichalcum_pickaxe"
+    },
+    {
+      "item": "mythicmetals:orichalcum_shovel"
+    },
+    {
+      "item": "mythicmetals:orichalcum_hoe"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:orichalcum_aiot"
+  }
+}

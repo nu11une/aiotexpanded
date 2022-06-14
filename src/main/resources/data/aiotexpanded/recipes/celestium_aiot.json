@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mythicmetals:celestium_sword"
+    },
+    {
+      "item": "mythicmetals:celestium_axe"
+    },
+    {
+      "item": "mythicmetals:celestium_pickaxe"
+    },
+    {
+      "item": "mythicmetals:celestium_shovel"
+    },
+    {
+      "item": "mythicmetals:celestium_hoe"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:celestium_aiot"
+  }
+}
