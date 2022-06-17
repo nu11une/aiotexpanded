@@ -39,11 +39,11 @@ public class AIOTExpanded implements ModInitializer {
 			LOGGER.info("[" + MOD_ID + "] Detected DragonLoot, registering items");
 			DragonLootItems.registerDragonLootItems();
 		}
-		if(isModLoaded("tempdisabled")) {
+		if(isModLoaded("betternether")) {
 			LOGGER.info("[" + MOD_ID + "] Detected BetterNether, registering items");
 			BetterNetherItems.registerBetterNetherItems();
 		}
-		if(isModLoaded("tempdisabled")) {
+		if(isModLoaded("betterend")) {
 			LOGGER.info("[" + MOD_ID + "] Detected BetterEnd, registering items");
 			BetterEndItems.registerBetterEndItems();
 		}
