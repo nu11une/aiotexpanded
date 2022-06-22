@@ -5,7 +5,7 @@ import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.nu11une.aiotexpanded.AIOTExpanded;
-import ru.betterend.item.material.EndToolMaterial;
+import org.betterx.betterend.item.material.EndToolMaterial;
 import me.luligabi.basicaiots.common.item.AiotToolItem;
 
 public class BetterEndItems {

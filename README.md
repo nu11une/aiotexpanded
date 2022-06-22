@@ -19,4 +19,4 @@ Credits:
 
 All of the respective mod authors for the original tool-set textures
 
-<sub>Note: I am not affiliated with the author of the Basic AIOTs mod</sub> test
+<sub>Note: I am not affiliated with the author of the Basic AIOTs mod</sub>

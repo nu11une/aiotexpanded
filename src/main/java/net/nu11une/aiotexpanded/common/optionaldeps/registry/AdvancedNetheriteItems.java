@@ -6,7 +6,7 @@ import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.nu11une.aiotexpanded.AIOTExpanded;
-import com.autovw.advancednetherite.core.ModToolTiers;
+import com.autovw.advancednetheritefabric.core.util.ModToolTiers;
 
 public class AdvancedNetheriteItems {
     public static Item NETHERITE_IRON_AIOT;
