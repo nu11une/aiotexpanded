@@ -3,6 +3,8 @@ package net.nu11une.aiotexpanded.common.optionaldeps.tools;
 import draylar.magna.api.BlockFinder;
 import draylar.magna.api.BreakValidator;
 import io.wispforest.owo.ops.WorldOps;
+
+import java.util.Iterator;
 import java.util.List;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
@@ -14,6 +16,7 @@ import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
@@ -32,16 +35,19 @@ public class MythicMetalsBanglumAIOT extends AiotToolItem implements BreakValida
         boolean shouldPass = false;
         World world = context.getWorld();
         PlayerEntity player = context.getPlayer();
+        BlockPos blockPos;
         if (player != null && !getCooldown(player, context.getStack()) && !world.isClient) {
             List<BlockPos> finder = BlockFinder.DEFAULT.findPositions(world, player, 1, 5);
+            Iterator var6 = finder.iterator();
 
-            for (BlockPos blockPos : finder) {
-                if(world.getBlockState(blockPos).isIn(BlockTags.PICKAXE_MINEABLE) ||
+            while(var6.hasNext()) {
+                blockPos = (BlockPos)var6.next();
+                if (world.getBlockState(blockPos).isIn(BlockTags.PICKAXE_MINEABLE) ||
                         world.getBlockState(blockPos).isIn(BlockTags.SHOVEL_MINEABLE) ||
                         world.getBlockState(blockPos).isIn(BlockTags.AXE_MINEABLE) ||
                         world.getBlockState(blockPos).isIn(BlockTags.HOE_MINEABLE) ||
-                        world.getBlockState(blockPos).isOf(Blocks.COBWEB)){
-                    world.breakBlock(blockPos, true, player);
+                        world.getBlockState(blockPos).isOf(Blocks.COBWEB)) {
+                    WorldOps.breakBlockWithItem(world, blockPos, context.getStack());
                     context.getStack().damage(2, player, (e) -> {
                         e.sendEquipmentBreakStatus(EquipmentSlot.MAINHAND);
                     });
@@ -52,7 +58,9 @@ public class MythicMetalsBanglumAIOT extends AiotToolItem implements BreakValida
 
         if (shouldPass) {
             BlockPos pos = context.getBlockPos();
-            MythicParticleSystem.OVERENGINEERED_SINGLE_EXPLOSION_PARTICLE.spawn(world, Vec3d.of(pos));
+            Direction facing = context.getPlayerFacing();
+            blockPos = context.getBlockPos().offset(facing, 5);
+            MythicParticleSystem.EXPLOSION_TRAIL.spawn(world, Vec3d.of(pos), Vec3d.of(blockPos));
             WorldOps.playSound(world, pos, SoundEvents.ENTITY_GENERIC_EXPLODE, SoundCategory.PLAYERS);
             player.getItemCooldownManager().set(this, 75);
             return ActionResult.SUCCESS;
@@ -66,6 +74,6 @@ public class MythicMetalsBanglumAIOT extends AiotToolItem implements BreakValida
     }
 
     public static boolean getCooldown(LivingEntity entity, ItemStack stack) {
-        return entity != null && entity.isPlayer() ? ((PlayerEntity)entity).getItemCooldownManager().isCoolingDown(stack.getItem()) : false;
+        return entity != null && entity.isPlayer() && ((PlayerEntity) entity).getItemCooldownManager().isCoolingDown(stack.getItem());
     }
 }

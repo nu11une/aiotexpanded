@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wardenloot:sculk_sword"
+    },
+    {
+      "item": "wardenloot:sculk_pickaxe"
+    },
+    {
+      "item": "wardenloot:sculk_axe"
+    },
+    {
+      "item": "wardenloot:sculk_shovel"
+    },
+    {
+      "item": "wardenloot:sculk_hoe"
+    }
+  ],
+  "result": {
+    "item": "aiotexpanded:sculk_aiot"
+  }
+}

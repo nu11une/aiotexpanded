@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "basicaiots:netherite_aiot"
+  },
+  "addition": {
+    "item": "wardenloot:imbued_ingot"
+  },
+  "result": {
+    "item": "aiotexpanded:sculk_aiot"
+  }
+}
