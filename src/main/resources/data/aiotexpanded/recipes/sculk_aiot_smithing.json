@@ -4,7 +4,7 @@
     "item": "basicaiots:netherite_aiot"
   },
   "addition": {
-    "item": "wardenloot:imbued_ingot"
+    "item": "wardenloot:sculk_ingot"
   },
   "result": {
     "item": "aiotexpanded:sculk_aiot"
