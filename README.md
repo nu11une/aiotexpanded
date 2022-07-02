@@ -8,10 +8,11 @@ Currently supported mods include:
 - [BetterEnd](https://www.curseforge.com/minecraft/mc-mods/betterend)
 - [BetterNether](https://www.curseforge.com/minecraft/mc-mods/betternether)
 - [Advanced Netherite](https://modrinth.com/mod/advanced-netherite)
+- [Warden Loot](https://www.curseforge.com/minecraft/mc-mods/warden-loot)
 
 With many more planned
 
-<img src="https://media.discordapp.net/attachments/597633988802117642/987454281542164580/aiots.png" width="450"/>
+<img src="https://media.discordapp.net/attachments/597633988802117642/992897298415759480/aiots.png" width="450"/>
 
 Credits:
 
