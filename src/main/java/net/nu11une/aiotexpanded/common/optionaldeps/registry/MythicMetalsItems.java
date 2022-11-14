@@ -10,7 +10,7 @@ import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 import net.nu11une.aiotexpanded.AIOTExpanded;
 import nourl.mythicmetals.abilities.Abilities;
-import nourl.mythicmetals.tools.ToolMaterials;
+import nourl.mythicmetals.tools.MythicToolMaterials;
 import net.nu11une.aiotexpanded.common.optionaldeps.tools.MythicMetalsBanglumAIOT;
 
 public class MythicMetalsItems {
@@ -72,26 +72,26 @@ public class MythicMetalsItems {
     }
 
     static {
-        ADAMANTITE_AIOT = new AiotToolItem(3, -2.4F, ToolMaterials.ADAMANTITE, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
-        AQUARIUM_AIOT = new AiotToolItem(3, -2.4F, ToolMaterials.AQUARIUM, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
-        BANGLUM_AIOT = new AiotToolItem(3, -2.4F, ToolMaterials.BANGLUM, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
-        BRONZE_AIOT = new AiotToolItem(3, -2.4F, ToolMaterials.BRONZE, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
-        CARMOT_AIOT = new AiotToolItem(3, -2.4F, ToolMaterials.CARMOT, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
-        CELESTIUM_AIOT = new AiotToolItem(3, -2.1F, ToolMaterials.CELESTIUM, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP).rarity(Rarity.RARE));
-        COPPER_AIOT = new AiotToolItem(3, -2.4F, ToolMaterials.COPPER, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
-        DURASTEEL_AIOT = new AiotToolItem(3, -2.4F, ToolMaterials.DURASTEEL, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
-        HALLOWED_AIOT = new AiotToolItem(3, -2.4F, ToolMaterials.HALLOWED, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP).rarity(Rarity.UNCOMMON));
-        KYBER_AIOT = new AiotToolItem(3, -2.4F, ToolMaterials.KYBER, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
-        LEGENDARY_BANGLUM_AIOT = new MythicMetalsBanglumAIOT(3, -2.5F, ToolMaterials.LEGENDARY_BANGLUM, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP).rarity(Rarity.UNCOMMON));
-        METALLURGIUM_AIOT = new AiotToolItem(3, -2.4F, ToolMaterials.METALLURGIUM, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP).fireproof().rarity(Rarity.RARE));
-        MYTHRIL_AIOT = new AiotToolItem(3, -2.2F, ToolMaterials.MYTHRIL, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
-        ORICHALCUM_AIOT = new AiotToolItem(3, -2.5F, ToolMaterials.ORICHALCUM, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
-        OSMIUM_AIOT = new AiotToolItem(3, -2.4F, ToolMaterials.OSMIUM, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
-        PALLADIUM_AIOT = new AiotToolItem(3, -2.4F, ToolMaterials.PALLADIUM, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP).fireproof());
-        PROMETHEUM_AIOT = new AiotToolItem(3, -2.4F, ToolMaterials.PROMETHEUM, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
-        QUADRILLUM_AIOT = new AiotToolItem(3, -2.4F, ToolMaterials.QUADRILLUM, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
-        RUNITE_AIOT = new AiotToolItem(3, -2.4F, ToolMaterials.RUNITE, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
-        STAR_PLATINUM_AIOT = new AiotToolItem(3, -2.2F, ToolMaterials.STAR_PLATINUM, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
-        STORMYX_AIOT = new AiotToolItem(3, -2.4F, ToolMaterials.STORMYX, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
+        ADAMANTITE_AIOT = new AiotToolItem(3, -2.4F, MythicToolMaterials.ADAMANTITE, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
+        AQUARIUM_AIOT = new AiotToolItem(3, -2.4F, MythicToolMaterials.AQUARIUM, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
+        BANGLUM_AIOT = new AiotToolItem(3, -2.4F, MythicToolMaterials.BANGLUM, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
+        BRONZE_AIOT = new AiotToolItem(3, -2.4F, MythicToolMaterials.BRONZE, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
+        CARMOT_AIOT = new AiotToolItem(3, -2.4F, MythicToolMaterials.CARMOT, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
+        CELESTIUM_AIOT = new AiotToolItem(3, -2.1F, MythicToolMaterials.CELESTIUM, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP).rarity(Rarity.RARE));
+        COPPER_AIOT = new AiotToolItem(3, -2.4F, MythicToolMaterials.COPPER, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
+        DURASTEEL_AIOT = new AiotToolItem(3, -2.4F, MythicToolMaterials.DURASTEEL, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
+        HALLOWED_AIOT = new AiotToolItem(3, -2.4F, MythicToolMaterials.HALLOWED, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP).rarity(Rarity.UNCOMMON));
+        KYBER_AIOT = new AiotToolItem(3, -2.4F, MythicToolMaterials.KYBER, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
+        LEGENDARY_BANGLUM_AIOT = new MythicMetalsBanglumAIOT(3, -2.5F, MythicToolMaterials.LEGENDARY_BANGLUM, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP).rarity(Rarity.UNCOMMON));
+        METALLURGIUM_AIOT = new AiotToolItem(3, -2.4F, MythicToolMaterials.METALLURGIUM, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP).fireproof().rarity(Rarity.RARE));
+        MYTHRIL_AIOT = new AiotToolItem(3, -2.2F, MythicToolMaterials.MYTHRIL, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
+        ORICHALCUM_AIOT = new AiotToolItem(3, -2.5F, MythicToolMaterials.ORICHALCUM, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
+        OSMIUM_AIOT = new AiotToolItem(3, -2.4F, MythicToolMaterials.OSMIUM, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
+        PALLADIUM_AIOT = new AiotToolItem(3, -2.4F, MythicToolMaterials.PALLADIUM, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP).fireproof());
+        PROMETHEUM_AIOT = new AiotToolItem(3, -2.4F, MythicToolMaterials.PROMETHEUM, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
+        QUADRILLUM_AIOT = new AiotToolItem(3, -2.4F, MythicToolMaterials.QUADRILLUM, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
+        RUNITE_AIOT = new AiotToolItem(3, -2.4F, MythicToolMaterials.RUNITE, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
+        STAR_PLATINUM_AIOT = new AiotToolItem(3, -2.2F, MythicToolMaterials.STAR_PLATINUM, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
+        STORMYX_AIOT = new AiotToolItem(3, -2.4F, MythicToolMaterials.STORMYX, (new FabricItemSettings()).group(AIOTExpanded.AIOTEXPANDED_GROUP));
     }
 }
