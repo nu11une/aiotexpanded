@@ -13,9 +13,7 @@ public class AIOTExpandedClient implements ClientModInitializer {
 
     public void onInitializeClient() {
         if(AIOTExpanded.isModLoaded("mythicmetals")) {
-            ModelPredicateProviderRegistry.register(MythicMetalsItems.LEGENDARY_BANGLUM_AIOT, new Identifier("is_primed"), (stack, world, entity, seed) -> {
-                return MythicMetalsBanglumAIOT.getCooldown(entity, stack) ? 0.0F : 1.0F;
-            });
+            ModelPredicateProviderRegistry.register(MythicMetalsItems.LEGENDARY_BANGLUM_AIOT, new Identifier("is_primed"), (stack, world, entity, seed) -> MythicMetalsBanglumAIOT.getCooldown(entity, stack) ? 0.0F : 1.0F);
         }
     }
 }

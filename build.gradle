@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '0.12-SNAPSHOT'
+	id 'fabric-loom' version '1.0-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -46,7 +46,8 @@ dependencies {
 	modImplementation "curse.maven:owo-lib-532610:${project.owolib_version}"
 	modImplementation "curse.maven:wardenloot-633768:${project.wardenloot_version}"
 	modImplementation "curse.maven:clothconfig-348521:${project.clothconfig_version}"
-	modImplementation "com.github.Draylar:magna:1.7.0-1.18"
+	modImplementation "com.github.Draylar:magna:1.8.0-1.19.2"
+	include "com.github.Draylar:magna:1.8.0-1.19.2"
 	modImplementation "com.terraformersmc:modmenu:2.0.4"
     modImplementation "com.jamieswhiteshirt:reach-entity-attributes:2.1.1"
 }
